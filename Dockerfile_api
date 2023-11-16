@@ -1,0 +1,6 @@
+FROM ubuntu:22.04
+
+COPY test_api /app/
+
+
+CMD ./app/test_api
